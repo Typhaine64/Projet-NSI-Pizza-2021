@@ -1,0 +1,98 @@
+html {
+font-family: Courier New, monospace;
+font-style: italic;
+}
+
+#images{
+display:grid;
+grid-template-columns: auto auto auto auto;
+text-align:center;
+}
+
+
+#gif2{
+	width: 200px;
+	height: 200px;
+	float: right;
+}
+
+img{
+width:40%;
+border: black 1px solid;
+}
+.admin{
+	text-align: center;
+}
+
+nav
+{
+    height: 250px;
+    width: 15%;
+    vertical-align: top;
+	border:1px solid black;
+	margin:15px;
+	background-color:#77ACBF;
+	float:left;
+}
+
+#mbe
+{
+width : 15%; 
+height: 60px;
+border: black 1px solid;
+display: grid;
+float: right;
+}
+
+body{
+	background-color: #40535A ;
+}
+
+h1{
+	background-color:#547B89;
+	color:white;
+	text-align: center;
+	padding: 15px;
+	border-style: solid;
+	border-color: rgb(0 0 0);
+	border-width: 5px;
+	
+}
+section{
+	background-color: #5C8A9B;
+	padding: 0% 1%;
+	margin: 1% 0%;
+}
+figcaption{
+	text-indent: 0%;
+	text-align:right;
+}
+header>p{
+	text-align:center;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+section>p{
+	text-indent: 1em;
+}
+footer{
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+}
+footer>p{
+	text-align: right;
+}
+	
+article {
+background-color: #547E8E ;
+	border-style: solid;
+	border-color: rgb(0 50 50);
+	border-width: 1px;
+padding: 20px;
+margin: 1%;
+}
+
+#presentation{
+	height: 300px;
+}
+
